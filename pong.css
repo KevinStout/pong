@@ -4,6 +4,7 @@ body {
 }
 
 #my-canvas {
+  border: 5px solid #fff;
   margin-left: 10px;
   margin-top: 10px;
 }

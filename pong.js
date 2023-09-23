@@ -79,12 +79,12 @@ function Draw() {
   ctx.fillText(aiPlayer.score.toString(), canvas.width / 2 + 300, 100);
 
   if (player.score === winningScore) {
-    ctx.fillText("You Win!", canvas.width / 2, 300);
+    ctx.fillText("You Won!", canvas.width / 2, 300);
     gameOver = true;
   }
 
   if (aiPlayer.score === winningScore) {
-    ctx.fillText("You Win!", canvas.width / 2, 300);
+    ctx.fillText("Ai Won.", canvas.width / 2, 300);
     gameOver = true;
   }
 }
